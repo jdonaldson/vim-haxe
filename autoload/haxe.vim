@@ -371,7 +371,7 @@ fun! haxe#BuildHXMLPath(...)
   if a:0 > 0
     let new_=a:1
   elseif !exists('g:haxe_build_hxml')
-    let new_=input('specify your build.hxml file. It should contain one haxe invokation only: ','','customlist,haxe#HXMLFilesCompletion')
+    let new_=input('specify your build.hxml file. It should contain one haxe invocation only: ','','customlist,haxe#HXMLFilesCompletion')
   else
     let new_ = g:haxe_build_hxml
   endif

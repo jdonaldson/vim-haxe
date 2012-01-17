@@ -42,7 +42,7 @@ if g:vim_haxe_syntax_scheme_nr == 1
 
 
   " keyword definitions
-  syn keyword haxeExternal	import extern package
+  syn keyword haxeExternal	using import extern package
   syn keyword haxeConditional	if else switch
   syn keyword haxeRepeat		while for do in
   syn keyword haxeBoolean		true false
